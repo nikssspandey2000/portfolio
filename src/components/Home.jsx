@@ -106,7 +106,7 @@ function Home() {
           <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=36&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=600&lines=%E2%98%98%EF%B8%8F+Welcome+to+My++Portfolio+%E2%98%98%EF%B8%8F;You're+Amaging+%26+Loved++%F0%9F%91%91" alt="Typing SVG" />
           </div>
           <p className="text-lg mt-4 mb-12 px-2 font-montserrat">
-          I code, I design, I drink coffee🍵 (a lot), and sometimes, I even sleep! 
+          I balance numbers, strategies, and opportunities—because as a Chartered Accountant, precision isn't just a skill, it's a way of life. 
           </p>
           <Link
             to="/contact"

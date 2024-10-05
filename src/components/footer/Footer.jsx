@@ -44,7 +44,7 @@ function Footer() {
                 </li>
               </ul>
             </nav>
-            <p className="text-[14px] mt-2">&copy; 2024 My Quirky Portfolio. Designed with ❤️ by Ashwin Sunuwar.</p>
+            <p className="text-[14px] mt-2">&copy; 2024 My Quirky Portfolio.</p>
            
           </div>
           <div>

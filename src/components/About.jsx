@@ -24,10 +24,10 @@ function About() {
                         About Me
                     </p>
                     <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-5xl sm:leading-snug animate-toTop2">
-                        I am Ashwin Sunuwar
-                        <span className="my-1 inline-block border-b-8 border-g4 bg-primary px-4 font-bold text-5xl animate__animated animate__flash">Computer Engineer</span>
+                        I am Nikesh Pandey
+                        <span className="my-1 inline-block border-b-8 border-g4 bg-primary px-4 font-bold text-5xl animate__animated animate__flash">CA Student</span>
                     </h2>
-                    <p className="text-base text-gray-700 animate-toTop3 font-montserrat">who is passionate about technology and innovation.  <br/><br/> I'm from Sindhuli, Nepal. Committed to lifelong learning
+                    <p className="text-base text-gray-700 animate-toTop3 font-montserrat">who is passionate about auditing and finance.  <br/><br/> I'm from Sindhuli, Nepal. Committed to lifelong learning
                 and eager to contribute to meaningful projects.</p>
                     <div className="mt-10 flex flex-col items-center md:flex-row font-montserrat">
                         <Link to="/contact" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-600 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-blue-800 focus:outline-none md:mr-4 md:mb-0 md:w-auto animate-toTop4">
