@@ -1,0 +1,22 @@
+.first-heading{
+    
+    animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate{
+    0%,18%, 22%, 90%, 92%{
+        color: rgb(255,231,0, 10%);
+        text-shadow: none;
+    }
+18.1%,22.1%, 90.1%, 94%, 100%{
+        color: rgb(255,231,230, 80%);
+        text-shadow: 0 0 10px rgb(255,231,0, 60%),
+        0 0 20px rgb(255,231,0, 60%),
+        0 0 40px rgb(255,231,0, 60%),
+        0 0 80px rgb(255,231,0, 60%),
+        0 0 120px rgb(255,231,0, 60%);
+
+    }
+
+}
