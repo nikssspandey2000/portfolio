@@ -1,57 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="./src/assets/images/myLogo.png"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
-    />
-    <link
-      rel="stylesheet"
-      htmlFor="https://cdn.tailgrids.com/tailgrids-fallback.css"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
-    <!-- toast -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
-    ></script>
-    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- mobile nav -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NikeshPandey</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+  </style>
+
+    <title>Nikesh Pandey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-history">Work History</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <li><a href="https://nikeshpandey-my.sharepoint.com/:f:/g/personal/nikssspandey2000_nikeshpandey_onmicrosoft_com/Eo4pGo0I-8VHhFreSbV8W9MBjb2mfbXEv5rGPZvnLrqpDg?e=BTzh9b">40HR IT Material</a></li>
+            <h1>Nikesh Pandey</h1>
+            <h2>CA Aspirant</h2>
+            <p>Enthusiastic CA candidate eager to apply theoretical knowledge in practical accounting, taxation, and audit contexts during articleship. Committed to contributing to firm growth and building a successful Chartered Accountant career.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>CA-ICAN</h3>
+                    <p>Sabdobato, CAP 1 - 78%, CAP 2 - 57.57%, Tax - 67, BC - 64</p>
+                </li>
+                <li>
+                    <h3>BBS</h3>
+                    <p>Divya Gyan College, Putalisadak, BBS 4th year exam Appeared, 3rd Year Score - 69.2%</p>
+                </li>
+                <li>
+                    <h3>Intermediate</h3>
+                    <p>Universal College, Maitidevi, Score - 2.87 GPA (A+)</p>
+                </li>
+                <li>
+                    <h3>SLC</h3>
+                    <p>Siddhasthali, Sindhuli, Score - 3.65 GPA (A+)</p>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Think CA</li>
+                <li>Helping to Make Revision Lecture for CA S</li>
+                <li>Samata Sikchya Niketan, Naya Basti</li>
+                <li>Teaching accounting to +2 students</li>
+            </ul>
+        </section>
+        <section id="work-history">
+            <h2>Work History</h2>
+            <p>Please click here for documents</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Address: Chabahil, Kathmandu</p>
+            <p>Phone: 9845835877</p>
+            <p>Email: <a href="mailto:nikssspandey2000@gmail.com">nikssspandey2000@gmail.com</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
 </html>
